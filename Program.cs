@@ -109,6 +109,58 @@
             //    Console.WriteLine(pair.Key + " = " + pair.Value);
             //}
             #endregion
+
+            #region Exercise03
+            //Build a phone book application.
+
+            //Console.WriteLine("exercise 3 : ");
+            //Console.WriteLine();
+
+            //Dictionary<string,string> phonebook=new Dictionary<string,string>();
+            //phonebook.Add("ahmed", "01034791794");
+            //phonebook.Add("sara", "01130917381");
+            //phonebook.Add("ali", "01210483921");
+            //phonebook.Add("mona", "01510384920");
+
+            //phonebook["essam"] = "01032435141";
+
+            //try
+            //{
+            //    phonebook.Add("ahmed", "01034791794");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("erorr : "+ex.Message);
+            //}
+
+            //bool newAdd = phonebook.TryAdd("ahmed", "01099988877");
+            //Console.WriteLine("newAdd succeeded : " + newAdd);
+
+            //Console.WriteLine("does sleem exist : " +phonebook.ContainsKey("sleem"));
+
+            //if (phonebook.TryGetValue("sleem",out string phone))
+            //{
+            //    Console.WriteLine("phone : " + phone);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("phone not found");
+            //}
+
+            //Console.WriteLine("key : ");
+            //foreach (string key in phonebook.Keys)
+            //{
+            //    Console.Write(key + " ");
+            //}
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("value : ");
+            //foreach (string value in phonebook.Values)
+            //{
+            //    Console.Write(value + " ");
+            //}
+            #endregion
         }
     }
 }
