@@ -278,6 +278,43 @@
             //    Console.WriteLine("queue is empty");
             //}
             #endregion
+
+            #region Exercise06
+            //Simulate browser back/forward 
+
+            //Console.WriteLine("exercise 6 : ");
+            //Console.WriteLine();
+
+            //Stack<string> history = new Stack<string>();
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+
+
+            //Console.WriteLine("current page: " + history.Peek());
+            //string page;
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    page = history.Pop();
+
+            //    Console.WriteLine("leaving : " + page);
+            //}
+
+            //Console.WriteLine("Current page after going back : " +history.Peek());
+
+            //history.Pop();
+            //history.Pop();
+            //if (history.TryPop(out page))
+            //{
+            //    Console.WriteLine("popped : " + page);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("the stack is empty trypop will not work");
+            //}
+            #endregion
         }
     }
 }
