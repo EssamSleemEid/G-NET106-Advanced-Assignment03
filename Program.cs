@@ -238,6 +238,46 @@
             //Console.WriteLine();
             //Console.WriteLine("is 1,2 subset of Set A : " +subset.IsSubsetOf(setA));
             #endregion
+
+            #region Exercise05
+            //Simulate a printer queue 
+
+            //Console.WriteLine("exercise 5 : ");
+            //Console.WriteLine();
+
+            //Queue<string> documents = new Queue<string>();
+
+            //documents.Enqueue("report.pdf");
+            //documents.Enqueue("invoice.pdf");
+            //documents.Enqueue("letter.docx");
+            //documents.Enqueue("resume.pdf");
+            //documents.Enqueue("photo.jpg");
+
+            //Console.WriteLine("Queue:");
+            //foreach (string document in documents)
+            //{
+            //    Console.Write(document + ",");
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("count : " +documents.Count);
+
+            //Console.WriteLine("next document : " +documents.Peek());
+
+            //while (documents.Count > 0)
+            //{
+            //    string document = documents.Dequeue();
+            //    Console.WriteLine("Printing : " + document);
+            //}
+
+            //if (documents.TryDequeue(out string exist))
+            //{
+            //    Console.WriteLine("dequeued : " + exist);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("queue is empty");
+            //}
+            #endregion
         }
     }
 }
