@@ -161,6 +161,83 @@
             //    Console.Write(value + " ");
             //}
             #endregion
+
+            #region Exercise04
+            //Use Collection to manage unique email addresses.
+
+            //Console.WriteLine("exercise 4 : ");
+            //Console.WriteLine();
+
+            //HashSet<string> emails = new HashSet<string>();
+
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@test.com");
+
+            //Console.WriteLine("count : "+emails.Count);
+
+            /*the atually count here is 2 bc
+            the hash set does not allow duplicate 
+            and it ignore upper and lower cases diffrences
+            */
+
+            //HashSet<int> setA = new HashSet<int>
+            //{
+            //    1, 2, 3, 4, 5
+            //};
+
+            //HashSet<int> setB = new HashSet<int>
+            //{
+            //    4, 5, 6, 7, 8
+            //};
+
+            //HashSet<int> unionSet = new HashSet<int>
+            //{
+            //    1, 2, 3, 4, 5
+            //};
+
+            //unionSet.UnionWith(setB);
+
+            //Console.WriteLine("union : ");
+            //foreach (int union in unionSet)
+            //{
+            //    Console.Write(union + ",");
+            //}
+
+            //HashSet<int> intersectSet = new HashSet<int>
+            //{
+            //    1, 2, 3, 4, 5
+            //};
+
+            //intersectSet.IntersectWith(setB);
+            //Console.WriteLine();
+            //Console.WriteLine("intersection : ");
+            //foreach (int intersection in intersectSet)
+            //{
+            //    Console.Write(intersection + ",");
+            //}
+
+            //HashSet<int> exceptSet = new HashSet<int>
+            //{
+            //    1, 2, 3, 4, 5
+            //};
+
+            //exceptSet.ExceptWith(setB);
+            //Console.WriteLine();
+            //Console.WriteLine("except : ");
+            //foreach (int except in exceptSet)
+            //{
+            //    Console.Write(except + ",");
+            //}
+
+            //HashSet<int> subset = new HashSet<int>
+            //{
+            //    1, 2
+            //};
+            //Console.WriteLine();
+            //Console.WriteLine("is 1,2 subset of Set A : " +subset.IsSubsetOf(setA));
+            #endregion
         }
     }
 }
