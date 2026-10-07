@@ -58,7 +58,57 @@
             //    Console.WriteLine(message);
             //}
             #endregion
-            
+
+            #region Exercise02
+            //Create a leaderboard that automatically sorts players by score.
+
+            //Console.WriteLine("exercise 2 : ");
+            //Console.WriteLine();
+
+            //SortedDictionary<int,string> leader=new SortedDictionary<int,string>();
+            //leader.Add(500, "ahmed");
+            //leader.Add(200, "sara");
+            //leader.Add(800, "ali");
+            //leader.Add(350, "mona");
+
+            //Console.WriteLine("leaderboard : ");
+
+            //foreach(KeyValuePair<int,string> pair in leader)
+            //{
+            //    Console.WriteLine(pair.Key+" , "+pair.Value);
+            //}
+
+            //foreach (int key in leader.Keys)
+            //{
+            //    Console.WriteLine("First key: " + key);
+            //    break;
+            //}
+
+            //foreach (string value in leader.Values)
+            //{
+            //    Console.WriteLine("First value: " + value);
+            //    break;
+            //}
+
+            //Console.WriteLine("does score 500 exists ? : "+leader.ContainsKey(500));
+
+            //if (leader.TryGetValue(999, out string player))
+            //{
+            //    Console.WriteLine("the player with score 999 : " + player);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("player with score 999 does not exist");
+            //}
+
+            //leader.Remove(200);
+            //Console.WriteLine("leaderboard after remove 200 : ");
+
+            //foreach (KeyValuePair<int, string> pair in leader)
+            //{
+            //    Console.WriteLine(pair.Key + " = " + pair.Value);
+            //}
+            #endregion
         }
     }
 }
